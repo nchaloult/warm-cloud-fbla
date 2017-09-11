@@ -1,0 +1,31 @@
+/* Header Styling */
+header {
+    top: 0; 
+    
+    background: #F4DC76;
+}
+
+/* Nav Styling */
+nav { text-align: center; }
+
+nav a { color: rgba(0, 0, 0, 0.87); }
+nav a:before { background: rgba(0, 0, 0, 0.87); }
+
+/* Cards */
+.card * { color: rgba(0, 0, 0, 0.87); }
+
+/* Perks Styling */
+.perks p { text-align: center; }
+
+/* Register Styling */
+.register-wrap { 
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 1em 0em;
+    width: 100%; 
+}
+
+@media screen and (min-width: 850px) { 
+    .register-wrap { width: 50%; } 
+}
